@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "frogs_plus",
+  "version": "${version}",
+
+  "name": "Frogs Plus",
+  "description": "When frogs were added with the 1.19 Wild Update,\nI felt like there should have been special versions for the end and nether dimensions.\nThis mod adds those frogs in, along with respective froglights.",
+  "authors": [
+    "Inditorias"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/frogs_plus/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.inditorias.frogs_plus.FrogsPlus"
+    ]
+  },
+  "mixins": [
+    "frogs_plus.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
